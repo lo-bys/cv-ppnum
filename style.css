@@ -2,11 +2,18 @@ body{
     overflow-x:hidden;
     margin: 0;
     padding:0;
-   /* background-image:url(image/atom.jpg);*/
+    background-image:url(image/fond3.png);
     height: auto;
     width: 100%;
     display: block;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px left 300px top;
+    position: absolute;
+    background-attachment: scroll;
+    z-index: 2;
+    
    
 }
 
@@ -18,14 +25,23 @@ header {
 }
 
 #entête{
-    background-image:url(image/ecriture.jpg);
+    /*background-image:url(image/fond2.png);*/
     height:250px;
     width: 100%;
+    background-size:auto ;
+    background-color: rgb(238, 235, 231);
+    z-index: -1;
+    opacity: 50%;
+   
 }
 
+#weblola{
+  height:250px;
+    width: 100%;
+    background-size:auto ;
+}
 
-
-#entête h1 {
+#weblola h1 {
     display: flex;
     display: block;
     justify-content:center; 
@@ -34,11 +50,19 @@ header {
     margin:0;
     position:relative ;
     text-align: center;
-    top:200px; 
+    top:-250px; 
     font-family: 'Josefin Sans', sans-serif;
     font-size:60px;
+    opacity: 100%;
 }
- #entête p{
+ #weblola p{
+     display:block;
+     display:flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:40px;
+    position: relative;
+    top:-300px;
+    justify-content: center;
 
 
  }
@@ -91,47 +115,52 @@ nav ul li a:hover {
 
 }
 
-
-#corps {
-    display: block;
-    width: 800px;
-    margin:auto;
-
-
-
-
-}
-#corps h1{
- display: block;
- position: relative;
- width:100%;
- margin:0;
- text-align: center;
- font-family:'Josefin Sans', sans-serif;
- left: 300px;
- float:left;
- 
+#corps{
+    width: 300px;
+    height: 220px;
+   
+    right: 500px;
+    position: absolute;
+    top:500px;
+    text-align: justify;
 }
 
-#corps table {
-display:block;
-position: relative;
-width:100%;
-margin:0;
-text-align:center;
-text-align:justify;
-left:250px;
--webkit-columns: 1 50px;
--moz-columns: 1 50px;
-columns: 1 50px;
-float:left;
+#lola h1{
+    
+    display:inline-block;
+    position: absolute;
+    top: 400px;
+    right:500px;
+   
+   
 }
 
-#corps table td{
-    width: 100%;
-    margin-left:300px ;
-    margin-right: 80px;
+#corps p {
+    box-sizing:content-box;
+    display: inline;
+    float: none;
+    line-height: 25.2px;
+    position: static;
+    z-index: auto;
+    text-align: justify;
+  
+    
+
 }
+
+#photo{
+    position: absolute;
+    right: 870px;
+    top:430px;
+}
+
+width: 30%;
+margin-left: 400px;
+margin-right:500px ;
+line-height:1.4em ;
+}
+
+
 @font-face{
 font-family:"Sans Serif" ;
 src:url(police/Cano.otf);
@@ -147,7 +176,7 @@ display: block ;
 height:60px;
 background-color:rgb(180, 135, 76) ;
 position:absolute;
-top:1000px;
+top:1200px;
 bottom: 0;
 left: 0;
 right: 0;
