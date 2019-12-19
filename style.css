@@ -126,18 +126,19 @@ nav ul li a:hover {
     width: 300px;
     height: 220px;
    
-    right: 500px;
-    position: absolute;
-    top:500px;
+    right: -850px;
+    position: relative;
+    top:80px;
     text-align: justify;
 }
 
 #lola h1{
     
     display:inline-block;
-    position: absolute;
-    top: 400px;
-    right:500px;
+    position: relative;
+   justify-content: center;
+    top: 100px;
+    right:-850px;
    
    
 }
@@ -156,9 +157,9 @@ nav ul li a:hover {
 }
 
 #photo{
-    position: absolute;
-    right: 870px;
-    top:430px;
+    position: relative;
+    right: -400px;
+    top:-185px;
 }
 
 width: 30%;
@@ -186,7 +187,7 @@ src:url(police/Cano.otf);
 
 #formation{
     position:relative;
-    top:600px;
+    top:50px;
     width: 380px;
     height: 220px;
     text-align: justify;
@@ -206,7 +207,7 @@ src:url(police/Cano.otf);
 
 #emploi {
     position:relative;
-    top:380px;
+    top:-200px;
     width: 450px;
     height: 220px;
     right: -820px;
