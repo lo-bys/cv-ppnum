@@ -130,6 +130,7 @@ nav ul li a:hover {
     position: relative;
     top:80px;
     text-align: justify;
+    
 }
 
 #lola h1{
@@ -205,12 +206,29 @@ src:url(police/Cano.otf);
     padding-left: 30px;
 }
 
+#competences {
+   position: relative;
+   display: inline-block;
+   float: left;
+   top: -195px;
+   right: -750px;
+   border: solid black;
+   width: 500px;
+   height: 320px;
+   text-align: center;
+
+}
+
+#competences h1 {
+    
+}
+
 #emploi {
     position:relative;
-    top:-200px;
+    top:-100px;
     width: 450px;
     height: 220px;
-    right: -820px;
+    right: -300px;
     text-align: justify;
 
 } 
@@ -229,7 +247,7 @@ display: block ;
 height:60px;
 background-color: rgb(238, 235, 231); 
 position:absolute;
-top:1500px;
+top:2100px;
 bottom: 0;
 left: 0;
 right: 0;
